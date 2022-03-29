@@ -24,13 +24,21 @@
 .ContactMe {
     text-align: center;
     text-decoration: underline;
-    padding-top: 75px;
+    padding-top: 40px;
+	padding-bottom: 55px;
     font-family: "Audiowide", sans-serif;
 }
 
-.FirstName { padding-top: 50px;
+.FirstName { 
+
+	padding-top: 10px;
      padding-left: 30px;
       font-family: "Audiowide", sans-serif;}
+	
+	.form1 { 
+	display:inline-block;
+	width: 495px;
+	border-style: solid; border-width: 2px}
 
 .firstbox {
     border-style: solid;
@@ -39,15 +47,25 @@
        padding-right: 5px;
         width: 450px;
          display: inline-block;
-          color: darkgrey;
+          color: darkgray;
            font-family: "Audiowide", sans-serif;
 }
-.LastName {padding-top: 25px;
+	
+	
+.LastName {
+	
+	padding-top: 25px;
      padding-left: 30px;
       margin-bottom: 40px;
        margin-top: 30px;
         margin-bottom: 60px;
          font-family: "Audiowide", sans-serif;}
+	
+	
+	.form2 { 
+	display:inline-block;
+	width: 500px;
+	border-style: solid; border-width: 2px}
 
 .secondbox {
     border-style: solid;
@@ -94,10 +112,20 @@
     
 </div>
     <div class="FirstName">
-        First Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div class="firstbox">First Name </div>
+        First Name:
+		<div class="form1"> 
+		<form>
+			<input type="text" name="mainname" placeholder="&nbsp &nbsp...first">
+		</form>
+			</div>
     </div>
     <div class="LastName">
-        Last Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div class="secondbox">Last Name </div>
+        Last Name:
+		<div class="form2"> 
+		<form>
+			<input type="text" name="finalname" placeholder=" &nbsp &nbsp...last">
+		</form>
+			</div>
     </div>
     <div class="Submit">
         SUBMIT
